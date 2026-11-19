@@ -1,0 +1,9 @@
+features,train,test,setting,Accuracy,Precision,Recall,F1,ROC_AUC,MCC
+A_with_ports,UNSW,UNSW,within,0.9973,0.9576,0.9738,0.9656,0.9997,0.9643
+A_with_ports,UNSW,ToN-IoT,cross,0.3601,0.5162,0.0138,0.0268,0.3225,-0.0341
+A_with_ports,ToN-IoT,UNSW,cross,0.4692,0.0205,0.2664,0.0381,0.4125,-0.0997
+A_with_ports,ToN-IoT,ToN-IoT,within,0.9943,0.9936,0.9975,0.9956,0.9996,0.9876
+B_no_ports,UNSW,UNSW,within,0.997,0.9526,0.9735,0.9629,0.9997,0.9615
+B_no_ports,UNSW,ToN-IoT,cross,0.3541,0.3378,0.0088,0.0172,0.3528,-0.0822
+B_no_ports,ToN-IoT,UNSW,cross,0.879,0.0158,0.0338,0.0215,0.2383,-0.0368
+B_no_ports,ToN-IoT,ToN-IoT,within,0.994,0.9933,0.9973,0.9953,0.9996,0.987

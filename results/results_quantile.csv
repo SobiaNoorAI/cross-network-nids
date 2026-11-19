@@ -1,0 +1,5 @@
+method,train,test,setting,Accuracy,Precision,Recall,F1,ROC_AUC,MCC
+per-network quantile,UNSW,UNSW,within,0.997,0.9529,0.9731,0.9629,0.9997,0.9614
+per-network quantile,UNSW,ToN-IoT,cross,0.3634,0.9635,0.0063,0.0126,0.3957,0.0438
+per-network quantile,ToN-IoT,UNSW,cross,0.5978,0.0152,0.1446,0.0276,0.4112,-0.0961
+per-network quantile,ToN-IoT,ToN-IoT,within,0.9939,0.9931,0.9973,0.9952,0.9996,0.9867

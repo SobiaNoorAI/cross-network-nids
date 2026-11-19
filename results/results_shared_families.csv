@@ -1,0 +1,5 @@
+train,test,F1,ROC_AUC,MCC,flagged_by_family
+UNSW,UNSW,0.9556,0.9999,0.9552,"{'backdoor': 0.964, 'benign': 0.0, 'dos': 0.877, 'recon': 0.999}"
+UNSW,ToN-IoT,0.0168,0.6793,-0.069,"{'backdoor': 0.593, 'benign': 0.028, 'dos': 0.042, 'recon': 0.0}"
+ToN-IoT,UNSW,0.0064,0.2881,0.0166,"{'backdoor': 0.007, 'benign': 0.0, 'dos': 0.006, 'recon': 0.001}"
+ToN-IoT,ToN-IoT,0.9897,0.9996,0.9821,"{'backdoor': 1.0, 'benign': 0.01, 'dos': 0.996, 'recon': 0.993}"
